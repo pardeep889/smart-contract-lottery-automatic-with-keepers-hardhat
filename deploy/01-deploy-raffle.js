@@ -47,3 +47,5 @@ module.exports  = async function({getNamedAccounts, deployments}) {
         log("------------*** No need To Verify on local network ***----------------");
     }
 }
+
+module.exports.tags = ["all", "raffle"];
